@@ -1,0 +1,173 @@
+Messages:
+  prefix: '&8[&c&lDragon Chess&8] '
+  configReloaded: '&aConfig Reloaded!'
+  noPermissions: '&cYou don''t have permissions.'
+  commandCreateErrorUse: '&cYou need to use &7/chess create <arena>'
+  arenaAlreadyExists: '&cThat arena already exists.'
+  arenaCreated: '&aArena created! Use &7/chess build %arena% &ato automatically construct
+    the arena in your position.'
+  arenaDoesNotExists: '&cThat arena doesn''t exists.'
+  commandBuildErrorUse: '&cYou need to use &7/chess build <arena>'
+  arenaBuilt: '&aThe arena was built correctly!'
+  commandSetSpawnErrorUse: '&cYou need to use &7/chess setspawn <arena>'
+  spawnSet: '&aSpawn set for arena &e%arena%&a.'
+  mainLobbyDefined: '&aMain Lobby defined correctly.'
+  commandJoinErrorUse: '&cYou need to use &7/chess join <arena>'
+  playerJoin: '&7%player% &eVared Bazi Shod (&b%current_players%&8/&b2&e)'
+  playerLeave: '&7%player% &eAz Bazi Kharej Shod (&b%current_players%&8/&b2&e)'
+  arenaStartingMessage: '&eBazi Dar &7%time% &eSanie Digar Shoro Mishavad!'
+  gameStartingCancelled: '&7Bazikonan Braye Shoro e Bazi Kafi Nistand.'
+  gameStarted: '&aBazi Shoro Shod!'
+  blackPiecesInfo: '&eShoma Mohreye &0&lMeshki &eRo Dar Ekhtiar Darid.'
+  whitePiecesInfo: '&eShoma Mohreye &f&lSefid &eRo Dar Ekhtiar Darid.'
+  gameFinished:
+  - '&e&m                                               '
+  - '&6%player% &eBazi Ro Ba &9%points% &eEmtiaz Bord!'
+  - '&e&m                                               '
+  gameFinishedTie:
+  - '&e&m                                               '
+  - '&e                  Mosavi!'
+  - '&e&m                                               '
+  arenaDisabledError: '&cIn Arena Gheyr Faal Ast.'
+  alreadyInArena: '&cShoma Dar In Arena Hozor Darid.'
+  arenaAlreadyStarted: '&cBaazi Dar In Arena Shoro Shode.'
+  arenaIsFull: '&cZarfiate In Arena Kamel Ast.'
+  notInAGame: '&cShoma Dar Baazi Nistid.'
+  commandEnableErrorUse: '&cAz In Command Estefade Konid: &7/chess enable <arena>'
+  arenaAlreadyEnabled: '&cIn Arena Darhale Hazer Faal Ast.'
+  enableArenaBuildError: '&cShoma Bayad Aval Ba &7/chess build
+    <arena>&c Arena Ro Besazid.'
+  enableArenaSpawnError: '&cShoma Bayad Aval Spawn Arena Ro Ba Estefade Az &7/chess
+    setspawn <arena> &cSet Konid'
+  arenaEnabled: '&aArenaye &e%arena% &aFaal Shod.'
+  commandDisableErrorUse: '&cShoma Bayad Az &7/chess disable <arena> &cEstefade Konid'
+  arenaAlreadyDisabled: '&cArenaye Morede Nazar Gheyr Faal Ast.'
+  arenaDisabled: '&aArenaye &e%arena% &aGheyre Faal Shod.'
+  noMainLobby: '&cGhabl Az Sakht Arena, Lobby Asli Ro Set Konid: &7/chess
+    setmainlobby'
+  commandDeleteErrorUse: '&cShoma Bayad Az &7/chess delete <arena> &cEstefade Konid'
+  arenaDeleted: '&aArenaye &e%arena% &aPaak Shod.'
+  notYourTurn: '&cNoobate Shoma Nist!'
+  notYourPiece: '&cIn Mohreye Shoma Nist!'
+  pieceSelected: '&7&l%piece% &eEntekhab Shod.'
+  piecePawn: '&aSarbaz'
+  pieceRook: '&aGhalee'
+  pieceKnight: '&aAsb'
+  pieceBishop: '&aFiil'
+  pieceQueen: '&aVazir'
+  pieceKing: '&aShah'
+  changeTurn: '&6➤ &a%player% &eNobat Shomast.'
+  pieceMove: '&6➤ &a%player% &emoved &a%piece% &eto &7[%coords%]&e.'
+  pieceCaptured: '&6➤ &a%player% &emoved &a%piece% &eto &7[%coords%] &eand captured
+    &c%player2%''s %player2_piece%&e.'
+  castling: '&6➤ &a%player% &ecastled his King to &7[%coords%]&e.'
+  promotion: '&6➤ &a%player% &epromoted his Pawn to &a%piece%&e.'
+  check: '&6➤ &a%player%''s &cKing is in check!'
+  checkmate: '&6➤ &a%player%''s &cKing is in checkmate!'
+  actionbarPlayerTurn: '&9It''s &e%player% &9Turn. &8(&6%time%&8)'
+  actionbarYourTurn: '&9It''s your Turn. &8(&6%time%&8)'
+  gameScoreboardTitle: '&8[&c&lDragon Chess&8]'
+  gameScoreboardBody:
+  - '&1'
+  - '&cStatus:'
+  - '&e%status%'
+  - '&2'
+  - '&a&l%player_1% &cPoints: &a%player_1_points%'
+  - '&a&l%player_2% &cPoints: &a%player_2_points%'
+  - '&3'
+  - '&cPlay.Dragonnetwork.Ir'
+  statusWaiting: '&eEntezar'
+  statusStarting: '&eBazi Dar &a%time% &eDigar Shoro Mishavad'
+  statusIngame: '&a%time% &eDigar Tamam Mishavad'
+  statusFinishing: '&eDar &a%time% &eDigar Tamam Mishavad'
+  gameScoreboardWaitingPlayer: Player
+  pawnPromotionInventoryTitle: '&cPawn Promotion'
+  promoteItemName: '&ePromote to: &a%piece%'
+  signFormat:
+  - '&8[&cDragon Chess&8]'
+  - '&9%arena%'
+  - '%status%'
+  - '&a%current_players%&8/&a%max_players%'
+  signStatusWaiting: '&1WAITING'
+  signStatusStarting: '&6STARTING'
+  signStatusIngame: '&cINGAME'
+  signStatusDisabled: '&8DISABLED'
+  signStatusFinishing: '&4FINISHING'
+  titleKingInCheck: '&a%player%''s &cKing is in check!'
+  titleKingInCheckmate: '&a%player%''s &cKing is in checkmate!'
+  commandSpectateErrorUse: '&cYou need to use &7/chess spectate <arena>/<player>'
+  commandSpectateAllError: '&cThe arena doesn''t exists or that player is not playing
+    on it.'
+  arenaMustHaveStarted: '&cThe arena must have started to spectate it!'
+  errorPlayerNotExists: '&7Player &e%player% &7doesn''t have any stored stats.'
+  commandPlayerStats:
+  - '&9&lStats of &e%player%'
+  - '&7Bord Ha: &e%wins%'
+  - '&7Mosavi Ha: &e%ties%'
+  - '&7Bakht Ha: &e%loses%'
+  - '&7Tedade Baazi Haye Anjam Shode: &d%time%'
+  noArenasAvailable: '&cDarhale Hazer Arenayi Mojod Nemibashad.'
+  errorClearInventory: '&c&lMoshkel! &7Braye Vared Shodan Be Arena Inventory Khodeton Ro Khaali Konid.'
+Config:
+  arena_starting_cooldown: 10
+  arena_ending_phase_cooldown: 10
+  arena_time: 1200
+  piece_holograms_enabled: true
+  teleport_last_location: false
+  empty_inventory_to_join: false
+  click_distance: 15
+  time_in_each_turn:
+    enabled: true
+    time: 60
+    action_when_time_runs_out: move
+  leave_item_enabled: true
+  leave_item:
+    item: IRON_DOOR
+    name: '&7[&c&lKhoroj&7]'
+    lore:
+    - '&7Braye Kharej Shodan Az Bazi Rast Click Konid.'
+  select_item:
+    item: NAME_TAG
+    name: '&7[&a&lEntekhab Va Harekat Kon&7]'
+    lore:
+    - '&eChap Click &7Braye Entekhab Mohre.'
+    - '&eRast Click &7Braye Tekan Dadan Mohre.'
+  commands_whitelist:
+  - /chess leave
+  - /help
+  per_arena_chat: true
+  soundCapturePiece: BLOCK_NOTE_BLOCK_PLING;10;2
+  soundLosePiece: BLOCK_NOTE_BLOCK_PLING;10;0.1
+  soundMovePiece: BLOCK_STONE_STEP;10;1
+  soundCastling: BLOCK_PISTON_EXTEND;10;1.5
+  soundSelectPiece: UI_BUTTON_CLICK;10;1
+  soundPromotion: ENTITY_PLAYER_LEVELUP;10;2
+  soundCheck: ENTITY_BLAZE_DEATH;10;0.5
+  pointsPawn: 1
+  pointsRook: 3
+  pointsKnight: 3
+  pointsBishop: 3
+  pointsQueen: 10
+  pointsKing: 20
+  winners_command_rewards:
+  - msg %player% &aHere, take a reward!
+  - eco give %player% %random_5*points-10*points%
+  losers_command_rewards:
+  - msg %player% &aYou've lost! Here, take this compensation reward.
+  - eco give %player% %random_2*points-3*points%
+  minimum_time_for_rewards: 240
+  rewards_executed_after_teleport: true
+  mysql_database:
+    enabled: false
+    host: localhost
+    port: 3306
+    username: root
+    password: root
+    database: database
+MainLobby:
+  x: '8.514033959961678'
+  y: '4.0'
+  z: '8.526214204536782'
+  world: world
+  pitch: 0.05230388
+  yaw: -179.49414

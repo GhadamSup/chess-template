@@ -1,0 +1,43 @@
+Arenas:
+  End:
+    Spawn:
+      x: '8.012121543430455'
+      y: '4.0'
+      z: '7.965829746891718'
+      world: EndWorld
+      pitch: 1.7699596
+      yaw: -0.13570781
+    Location:
+      x: '-4.0'
+      y: '3.0'
+      z: '-4.0'
+      world: EndWorld
+    enabled: 'false'
+  Nether:
+    Spawn:
+      x: '7.995290806567107'
+      y: '4.0'
+      z: '8.051972522778149'
+      world: NetherWorld
+      pitch: 0.7302877
+      yaw: -0.6779926
+    Location:
+      x: '-4.0'
+      y: '3.0'
+      z: '-4.0'
+      world: NetherWorld
+    enabled: 'false'
+  World:
+    Spawn:
+      x: '8.024088922959983'
+      y: '4.0'
+      z: '8.049311895829634'
+      world: OverWorld
+      pitch: -2.6145115
+      yaw: -0.36169684
+    Location:
+      x: '-4.0'
+      y: '3.0'
+      z: '-4.0'
+      world: OverWorld
+    enabled: 'false'
